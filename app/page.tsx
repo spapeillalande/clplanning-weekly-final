@@ -1,0 +1,1 @@
+import Link from 'next/link'; export default function Page(){return(<main className='space-y-4'><h1 className='text-3xl font-bold'>CLPlanning Lycéens — Final</h1><p>Calendrier hebdomadaire interactif + export ICS + impression PDF.</p><Link href='/calendar' className='underline text-blue-700'>Aller au calendrier</Link></main>);}
