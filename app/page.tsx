@@ -46,3 +46,7 @@ function icsFor(events: EventItem[]) {
     )}${String(z.getUTCDate()).padStart(2, "0")}T${String(
       z.getUTCHours()
     ).padStart(2, "0")}${String(z.getUTCMinutes()).padStart
+      </div>
+    </main>
+  );
+}
